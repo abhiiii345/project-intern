@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+  }
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .navbar a.logo {
+    padding-top: 18px;
+    font-size: 24px;
+    margin-left: 28%;
+  }
+  .navbar a.connect-button {
+    margin-left: auto;
+  }
+  .ht{
+    margin-top: 10%;
+    padding-left: 2%;
+  }
+  .kt{
+    padding-left: 2%;
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 4px 6px;
+  }
+  .card-bg {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+  }
+  .text-white {
+    color: white;
+  }
+  .font-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .text-gray-400 {
+    color: #A0AEC0;
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    background-color: #1E293B;
+    border: 1px solid #4A5568;
+    border-radius: 5px;
+  }
+  .input-container input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 8px;
+    color: white;
+  }
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+  .filter-button {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .filter-button:hover {
+    background-color: white;
+    color: #2D3748;
+  }
+  .capsule-info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    padding: 4px;
+    font-size: 0.875rem;
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+  .capsule-info > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .capsule-info .token {
+    font-weight: bold;
+  }
+  .capsule-info .apy {
+    font-weight: bold;
+  }
+  .capsule-info .value {
+    font-weight: bold;
+  }

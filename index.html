@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="index.css">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
+<title>Navbar Example</title>
+ 
+
+</head>
+<body>
+
+<div class="navbar">
+  
+  <a href="#">Home</a>
+  <a href="#">Capsules</a>
+  <a href="#">Stake Docs</a>
+  <a href="#" class="logo">Logo</a>
+  <a href="#" class="connect-button">Connect Wallet</a>
+</div>
+
+<div>
+  <h2 class="ht">Deposited</h2>
+  <h1 class="kt">$273,320.10</h1>
+</div>
+
+<div class="w-full h-full">
+  <div class="container">
+    <div class="card-bg">
+      <div class="font-heading text-white">Capsules</div>
+      <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-1">
+          <div class="text-sm text-gray-400">Search Capsules</div>
+          <div class="input-container">
+            <input placeholder="Protectorate Capsule" class="text-white" value="">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="filter-button">Featured</div>
+          <div class="filter-button">All</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-bg">
+      <div class="capsule-info">
+        
+        <div class="token">Token</div>
+        <div class="apy">APY</div>
+        <div class="value">Available</div>
+        <div class="value">Deposited</div>
+        <div class="value">TVL</div>
+         
+        <div class="capsule-info">
+          <div class="token">ETH</div>
+          <div class="apy">15.92%</div>
+          <div class="value">0.00</div>
+          <div class="value">0.00</div>
+          <div class="value">$ 273,320.10</div>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
